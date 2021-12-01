@@ -38,6 +38,7 @@ a:active {
   align-items: center;
   gap: 15px;
   margin-bottom: 15px;
+  font-size: 18px;
 }
 .logo__img {
   height: 40px;
@@ -87,6 +88,7 @@ hr {
 
 .footer {
   margin-bottom: 15px;
+  font-size: 18px;
 }
 .footer hr {
   margin-bottom: 15px;
