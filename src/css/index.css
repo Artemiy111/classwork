@@ -1,0 +1,93 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html,
+body {
+  font-size: 24px;
+  line-height: 130%;
+}
+
+a {
+  text-decoration: none;
+  color: #4e89fb;
+  transition: 0.3s;
+}
+a:hover {
+  color: #2260d8;
+}
+a:active {
+  color: #2260d8;
+}
+
+.base-container {
+  width: 1120px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.logo__img {
+  height: 40px;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: #e9e9e9;
+}
+
+.main {
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.book {
+  display: flex;
+  gap: 120px;
+}
+
+.book__content h1 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.book__content h6 {
+  color: #a0a0a0;
+  font-weight: 500;
+}
+
+.book__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 40px;
+}
+.book__info li {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+.book__description h6 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-bottom: 15px;
+}
+.footer hr {
+  margin-bottom: 15px;
+}
