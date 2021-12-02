@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        <div class="item__img">
+          <img src="../src/img/lesson2_abstraction.png" alt="" />
+        </div>
+        <h4 class="item__title">Абстракции</h4>
+        <p class="item__text">
+          являются уни­вер­саль­ным методом на­учного по­зна­ния, они необходимы
+          для фор­ми­ро­ва­ния по­ня­тий, уз­на­ва­ния и клас­си­фи­ка­ции
+          объ­ек­тов исследования на всех уров­нях фор­ми­ро­ва­ния зна­ний.
+        </p>
+      </div>
+      <div class="item">
+        <div class="item__img">
+          <img src="../src/img/lesson2_abstraction.png" alt="" />
+        </div>
+        <h4 class="item__title">Абстракции</h4>
+        <p class="item__text">
+          являются уни­вер­саль­ным методом на­учного по­зна­ния, они необходимы
+          для фор­ми­ро­ва­ния по­ня­тий, уз­на­ва­ния и клас­си­фи­ка­ции
+          объ­ек­тов исследования на всех уров­нях фор­ми­ро­ва­ния зна­ний.
+        </p>
+      </div>
+      <div class="item">
+        <div class="item__img">
+          <img src="../src/img/lesson2_abstraction.png" alt="" />
+        </div>
+        <h4 class="item__title">Абстракции</h4>
+        <p class="item__text">
+          являются уни­вер­саль­ным методом на­учного по­зна­ния, они необходимы
+          для фор­ми­ро­ва­ния по­ня­тий, уз­на­ва­ния и клас­си­фи­ка­ции
+          объ­ек­тов исследования на всех уров­нях фор­ми­ро­ва­ния зна­ний.
+        </p>
+      </div>
+    </div>
+  </body>
+  <style>
+    @import url('../src/css/reset.css');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+    * {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 130%;
+    }
+    h4 {
+      font-weight: 700;
+    }
+    .container {
+      /* Отступы по 40px со всех сторон */
+      width: calc(100% - 40px - 40px);
+      height: calc(100% - 40px - 40px);
+
+      /* Размещение по центру */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      /*  */
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: inherit;
+
+      background-color: #ffdede;
+      border-radius: 10px;
+    }
+    .item {
+      width: 300px;
+      background-color: #fff;
+      height: auto;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .item__img {
+      margin-bottom: 10px;
+    }
+    .item__img img {
+      width: 100%;
+    }
+    .item__title {
+      padding: 0 15px;
+      margin-bottom: 10px;
+    }
+    .item__text {
+      padding: 0 15px;
+      margin-bottom: 15px;
+    }
+  </style>
+</html>
