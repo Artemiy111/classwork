@@ -7,64 +7,70 @@
     <title>lesson1</title>
   </head>
   <body>
-    <p>
-      b i - только визуально оформление: &nbsp; <b>текст b</b> &nbsp;
-      <i>текст i</i>
-    </p>
-    <p>
-      strong em - смысловое выделение: &nbsp;
-      <strong>текст strong</strong> &nbsp;
-      <em>текст em</em>
-    </p>
+    <section class="text-tags">
+      <p>
+        b i - только визуально оформление: &nbsp; <b>текст b</b> &nbsp;
+        <i>текст i</i>
+      </p>
+      <p>
+        strong em - смысловое выделение: &nbsp;
+        <strong>текст strong</strong> &nbsp;
+        <em>текст em</em>
+      </p>
+    </section>
 
-    <form action="">
-      <h1>Форма</h1>
-      <label>
-        Да?
-        <input type="checkbox" value="" name="" />
-      </label>
-      <br />
-      <br />
-      <label>
-        Да <input type="radio" name="bool" value="да" id="" /> Нет
-        <input type="radio" name="bool" value="нет " id="" />
-      </label>
-      <br />
-      <br />
-      <input type="range" name="" id="" min="0" max="100" value="20" />
-      <br />
-      <br />
-      <select name="" id="">
-        <option disabled>Выберете</option>
-        <option value="yes">Да</option>
-        <option value="no">Нет</option>
-      </select>
-      <br />
-      <br />
-      <select name="" id="" multiple>
-        <option disabled>Выберете</option>
-        <option value="a">a</option>
-        <option value="b">b</option>
-      </select>
+    <section class="form">
+      <form action="">
+        <h1>Форма</h1>
+        <label>
+          Да?
+          <input type="checkbox" value="" name="" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Да <input type="radio" name="bool" value="да" id="" /> Нет
+          <input type="radio" name="bool" value="нет " id="" />
+        </label>
+        <br />
+        <br />
+        <input type="range" name="" id="" min="0" max="100" value="20" />
+        <br />
+        <br />
+        <select name="" id="">
+          <option disabled>Выберете</option>
+          <option value="yes">Да</option>
+          <option value="no">Нет</option>
+        </select>
+        <br />
+        <br />
+        <select name="" id="" multiple>
+          <option disabled>Выберете</option>
+          <option value="a">a</option>
+          <option value="b">b</option>
+        </select>
 
-      <br />
-      <br />
-      <input type="text" /> <button>Отправить</button>
-    </form>
+        <br />
+        <br />
+        <input type="text" /> <button>Отправить</button>
+      </form>
+    </section>
 
-    <ul>
-      Список дел
-      <li>помыть посуду</li>
-      <li>погладить кота</li>
-      <li>полить цветы</li>
-    </ul>
+    <section class="lists">
+      <ul>
+        Список дел
+        <li>помыть посуду</li>
+        <li>погладить кота</li>
+        <li>полить цветы</li>
+      </ul>
 
-    <ol>
-      Последовательность
-      <li>Пойти</li>
-      <li>Прийти</li>
-      <li>Уйти</li>
-    </ol>
+      <ol>
+        Последовательность
+        <li>Пойти</li>
+        <li>Прийти</li>
+        <li>Уйти</li>
+      </ol>
+    </section>
 
     <table>
       <tr>
@@ -77,6 +83,7 @@
       </tr>
     </table>
   </body>
+
   <style>
     * {
       font-size: 24px;
